@@ -59,6 +59,11 @@ export default [
             component: './Forms/BasicForm',
           },
           {
+            path: '/form/table',
+            name: '表格测试',
+            component: './Test/Table/OptionTable',
+          },
+          {
             path: '/form/step-form',
             name: 'stepform',
             component: './Forms/StepForm',
